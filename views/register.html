@@ -1,0 +1,11 @@
+<div ng-controller="register">
+	<form>
+<h1>{{ data.success }}</h1>
+<h2>{{msg}}</h2>
+<input type="text" name="name" ng-model="name"><br>
+<input type="email" name="email" ng-model="email"><br>
+<input type="password" name="password" ng-model="password">
+<button ng-click="register(name,email,password)">register</button>
+<a href="#/">click here to login</a>
+</form> 
+</div>
